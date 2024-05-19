@@ -1,0 +1,16 @@
+{
+  "name": "npm-packages",
+  "version": "1.0.0",
+  "description": "learning npm",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/Jorgecas71/NPM-PACKAGES.git"
+  },
+  "author": "jorge",
+  "license": "ISC"
+}
