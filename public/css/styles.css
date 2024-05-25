@@ -1,5 +1,29 @@
 body {
-  background-color: black;
+  display: flex;
+  justify-content: center;
+  font-family: "Times New Roman", Times, serif;
+  padding: 40px;
+}
+body header > h1 {
+  text-align: center;
+}
+body img {
+  justify-content: center;
+  width: 450px;
+  height: 350px;
+}
+body footer {
+  display: flex;
+  justify-content: space-between;
+  height: 25px;
+}
+body footer > div {
+  padding-left: 40px;
+  width: 30px;
+}
+body footer > a {
+  padding-right: 40px;
+  width: 30px;
 }
 
 /*# sourceMappingURL=styles.css.map */
