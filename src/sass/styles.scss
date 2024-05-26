@@ -1,34 +1,51 @@
 body {
-    display: flex;
-    justify-content: center;
+   
     font-family: 'Times New Roman', Times, serif;
     padding: 40px;
+    margin: auto;
 
-    header {
-        >h1 {
+    
+        header {
         text-align: center;
+        > h1 {
+            text-align: center;
         }
-    }
+        }
+    
 
-    img {
-        justify-content: center;
-        width: 450px;
-        height: 350px;
+        img {
+            width: 50%;
+            height: auto;
+            padding-left: 300px;
+        
+
+        }
+
+        .grid {
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+    
+
+        .grid-container {
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
        }
 
-    footer {
-        display: flex;
-        justify-content: space-between;
-        height: 25px;
-       
-           >div {
+        footer {
+            display: flex;
+            justify-content: space-between;
+            height: 40px;
+
+           > div {
             padding-left: 40px;
             width: 30px;       
         }
-           >a {
-          padding-right: 40px;
-          width: 30px;   
+           > a {
+           padding-right: 40px;
+           width: 30px;   
         }
     }
 
 }
+

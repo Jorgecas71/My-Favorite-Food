@@ -1,21 +1,31 @@
 body {
-  display: flex;
-  justify-content: center;
   font-family: "Times New Roman", Times, serif;
   padding: 40px;
+  margin: auto;
+}
+body header {
+  text-align: center;
 }
 body header > h1 {
   text-align: center;
 }
 body img {
-  justify-content: center;
-  width: 450px;
-  height: 350px;
+  width: 50%;
+  height: auto;
+  padding-left: 300px;
+}
+body .grid {
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+body .grid-container {
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
 }
 body footer {
   display: flex;
   justify-content: space-between;
-  height: 25px;
+  height: 40px;
 }
 body footer > div {
   padding-left: 40px;
