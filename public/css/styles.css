@@ -1,37 +1,18 @@
-body {
+* {
   font-family: "Times New Roman", Times, serif;
   padding: 40px;
   margin: auto;
 }
-body header {
-  text-align: center;
-}
-body header > h1 {
-  text-align: center;
-}
-body img {
-  width: 50%;
-  height: auto;
-  padding-left: 300px;
-}
-body .grid {
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
-}
-body .grid-container {
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
-}
-body footer {
+* footer {
   display: flex;
   justify-content: space-between;
-  height: 40px;
+  height: 25px;
 }
-body footer > div {
+* footer > div {
   padding-left: 40px;
   width: 30px;
 }
-body footer > a {
+* footer > a {
   padding-right: 40px;
   width: 30px;
 }

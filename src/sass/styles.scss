@@ -1,49 +1,23 @@
-body {
-   
+* {
+    
     font-family: 'Times New Roman', Times, serif;
     padding: 40px;
     margin: auto;
 
-    
-        header {
-        text-align: center;
-        > h1 {
-            text-align: center;
-        }
-        }
-    
+ 
 
-        img {
-            width: 50%;
-            height: auto;
-            padding-left: 300px;
-        
-
-        }
-
-        .grid {
-            grid-template-columns: 1fr 1fr;
-            gap: 10px;
-        }
-    
-
-        .grid-container {
-            grid-template-columns: 1fr 1fr;
-            gap: 10px;
-       }
-
-        footer {
-            display: flex;
-            justify-content: space-between;
-            height: 40px;
-
-           > div {
+    footer {
+        display: flex;
+        justify-content: space-between;
+        height: 25px;
+       
+           >div {
             padding-left: 40px;
             width: 30px;       
         }
-           > a {
-           padding-right: 40px;
-           width: 30px;   
+           >a {
+          padding-right: 40px;
+          width: 30px;   
         }
     }
 
