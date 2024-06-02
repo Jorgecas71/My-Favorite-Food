@@ -1,20 +1,63 @@
-* {
-  font-family: "Times New Roman", Times, serif;
-  padding: 40px;
-  margin: auto;
+body {
+  background-color: #b2ad7f;
 }
-* footer {
+body header {
+  text-align: center;
+  background-color: rgba(212, 244, 196, 0.8);
+  opacity: 0.4;
+}
+body img {
+  width: 600px;
+  padding: 40px;
+  padding-left: 320px;
+}
+body h3 {
+  text-align: left;
+  padding-left: 140px;
+}
+body .grid-container {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  gap: 20px;
+  padding: 10px;
+  padding-left: 120px;
+}
+body .grid-container > div {
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  text-align: left;
+  font-size: 18px;
+  padding: 20px;
+}
+body .grid-container1 {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  gap: 20px;
+  padding: 5px;
+  padding-left: 120px;
+}
+body .grid-container1 > div {
+  grid-template-rows: 1fr 1fr;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  text-align: left;
+  font-size: 18px;
+  padding: 20px;
+}
+body footer {
   display: flex;
   justify-content: space-between;
-  height: 25px;
+  height: 30px;
+  background-color: rgba(212, 244, 196, 0.8);
 }
-* footer > div {
+body footer > div {
   padding-left: 40px;
-  width: 30px;
+  width: 25px;
 }
-* footer > a {
+body footer > a {
   padding-right: 40px;
-  width: 30px;
+  width: 25px;
 }
 
 /*# sourceMappingURL=styles.css.map */
