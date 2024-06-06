@@ -1,63 +1,79 @@
 body {
-  background-color: #b2ad7f;
+  background-color: rgba(239, 225, 103, 0.8431372549);
+  width: 100%;
+  height: 100%;
 }
-body header {
+
+header {
   text-align: center;
   background-color: rgba(212, 244, 196, 0.8);
-  opacity: 0.4;
+  opacity: 0.8;
+  color: #11601e;
 }
-body img {
-  width: 600px;
+
+img {
+  width: 100%;
   padding: 40px;
-  padding-left: 320px;
+  margin-left: 25px;
 }
-body h3 {
+
+h3 {
+  color: #11601e;
   text-align: left;
-  padding-left: 140px;
+  padding-left: 10%;
 }
-body .grid-container {
+
+.grid-container, .grid-container1 {
   display: grid;
-  grid-template-columns: 500px 500px;
   gap: 20px;
   padding: 10px;
-  padding-left: 120px;
 }
-body .grid-container > div {
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid black;
+
+.grid-container > div, .grid-container1 > div {
+  background-color: #eff3a3;
   text-align: left;
   font-size: 18px;
-  padding: 20px;
+  padding: 10px;
 }
-body .grid-container1 {
-  display: grid;
-  grid-template-columns: 500px 500px;
-  gap: 20px;
-  padding: 5px;
-  padding-left: 120px;
-}
-body .grid-container1 > div {
-  grid-template-rows: 1fr 1fr;
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid black;
-  text-align: left;
-  font-size: 18px;
-  padding: 20px;
-}
-body footer {
+
+.footer {
   display: flex;
-  justify-content: space-between;
-  height: 30px;
+  flex-direction: row;
+  justify-content: center;
   background-color: rgba(212, 244, 196, 0.8);
+  opacity: 0.8;
 }
-body footer > div {
-  padding-left: 40px;
-  width: 25px;
+
+.footer > a {
+  width: 60px;
 }
-body footer > a {
-  padding-right: 40px;
-  width: 25px;
+
+.footer > a > img {
+  width: 30px;
+}
+
+@media (min-width: 768px) {
+  img {
+    width: 400px;
+    padding-left: 410px;
+  }
+  h3 {
+    padding-left: 180px;
+  }
+  .grid-container {
+    grid-template-columns: 300px 300px;
+    padding-left: 120px;
+  }
+  .grid-container > div {
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  .grid-container1 {
+    grid-template-columns: 500px 500px;
+    padding-left: 120px;
+  }
+  .grid-container1 > div {
+    grid-template-rows: 1fr 1fr;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
